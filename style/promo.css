@@ -10,7 +10,7 @@
 .promo__background {
   height: 574px;
   width: 100%;
-  background-image: url(./src/images/mainpage/blueman.png);
+  background-image: url(../src/images/mainpage/blueman.png);
   background-repeat: space;
   background-position: center;
   background-size: cover;
