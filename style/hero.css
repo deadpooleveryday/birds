@@ -1,0 +1,21 @@
+.hero__discription_gray {
+  color: #86928b;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.hero__discription {
+  display: flex;
+  flex-direction: column;
+  height: 331px;
+  font-size: 60px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+}
+.hero__button {
+  margin-top: 60px;
+}
+.hero__title {
+  font-size: 60px;
+}

@@ -1,0 +1,32 @@
+.header__star {
+  width: 35px;
+  height: 35px;
+}
+.header__shop {
+  width: 20px;
+  height: 20px;
+}
+.header__navigation {
+  display: flex;
+  gap: 60px;
+  justify-content: space-between;
+}
+.header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.header__menu {
+  font-size: 20px;
+}
+.header__line {
+  display: none;
+  width: 80vw;
+  border: 1px solid #c3d1c6;
+}

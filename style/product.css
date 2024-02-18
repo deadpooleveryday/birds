@@ -1,0 +1,129 @@
+.product__froms {
+  display: flex;
+  justify-content: space-between;
+}
+.product__button {
+  border: 1px solid #598d66;
+  background-color: none;
+  font-size: 20px;
+  height: 43px;
+  border-radius: 20px;
+  background: rgb(212, 232, 217);
+  margin-left: 10px;
+  padding: 10px 20px 10px 20px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.product__button:hover {
+  color: rgb(244, 246, 245);
+  background-color: rgb(55, 107, 68);
+  transition: 0.3s;
+}
+.product__choise {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.product__reproduction {
+  font-size: 40px;
+}
+.product__cards {
+  margin-top: 30px;
+  display: grid;
+  gap: 30px;
+  grid-template-rows: repeat(2, 730px);
+  grid-template-columns: repeat(3, 350px);
+}
+.product__card {
+  width: 350px;
+  height: 730px;
+  background: #e1ede6;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.product__image {
+  width: 310px;
+  height: 422px;
+  background-color: white;
+}
+.product__author {
+  color: #86928b;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.product__name {
+  margin-top: 10px;
+  color: #2c2d35;
+  font-size: 30px;
+}
+.product__materials {
+  color: #2c2d35;
+  font-size: 18px;
+}
+.product__price {
+  color: #598d66;
+  font-size: 24px;
+}
+.product__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.product__button_cards {
+  border: 1px solid #598d66;
+  width: 100%;
+  height: 65px;
+  font-size: 20px;
+  color: rgb(89, 141, 102);
+  background-color: transparent;
+  transition: 0.3s;
+}
+.product__button_cards:hover {
+  color: rgb(244, 246, 245);
+  background-color: rgb(55, 107, 68);
+  transition: 0.3s;
+  cursor: pointer;
+}
+#fr:checked ~ #frbtn {
+  color: rgb(244, 246, 245);
+  background-color: rgb(55, 107, 68);
+  transition: 0.3s;
+  cursor: pointer;
+}
+#gr:checked ~ #grbtn {
+  color: rgb(244, 246, 245);
+  background-color: rgb(55, 107, 68);
+  transition: 0.3s;
+  cursor: pointer;
+}
+#en:checked ~ #enbtn {
+  color: rgb(244, 246, 245);
+  background-color: rgb(55, 107, 68);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.product__track {
+  display: flex;
+  transition: 1s;
+}
+.pruduct__hiddenpool {
+  overflow: hidden;
+  padding-top: 20px;
+}
+#fr:checked ~ .product__track {
+  margin: 0;
+}
+#gr:checked ~ .product__track {
+  margin-left: -100%;
+}
+#en:checked ~ .product__track {
+  margin-left: -200%;
+}
+.nn {
+  display: none;
+}
+.hueta {
+  height: 10px;
+}

@@ -1,0 +1,67 @@
+.promo {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 0px;
+  height: 209px;
+  margin-top: 50px;
+}
+.promo__background {
+  height: 574px;
+  width: 100%;
+  background-image: url(/src/images/mainpage/blueman.png);
+  background-repeat: space;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.promo__background_blackstar {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(255, 255, 255, 0) 65%
+  );
+  height: 574px;
+  width: 100%;
+  background-size: cover;
+  padding: 70px;
+}
+.promo__container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 436px;
+}
+.promo__logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+}
+.promo__title,
+.promo__info {
+  color: white;
+  font-family: Raleway;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.promo__title {
+  font-size: 40px;
+}
+.promo__info {
+  font-size: 18px;
+}
+.promo__button {
+  width: 257px;
+  height: 65px;
+  background: #eedb6d;
+  padding: 20px 60px 20px 60px;
+  color: #2c2d35;
+  font-size: 20px;
+}
