@@ -45,4 +45,8 @@ li {
   .container {
     width: 80vw;
   }
+  .button {
+    width: 210px;
+    height: 60px;
+  }
 }

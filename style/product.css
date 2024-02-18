@@ -127,3 +127,13 @@
 .hueta {
   height: 10px;
 }
+@media (max-width: 690px)
+ {
+  .product__reproduction {
+    font-size: 30px;
+  }
+  .product__cards {
+    grid-template-rows: repeat(3, 730px);
+    grid-template-columns: repeat(2, 350px);
+  }
+}

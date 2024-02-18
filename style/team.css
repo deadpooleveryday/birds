@@ -31,3 +31,9 @@
 .team__title {
   font-size: 40px;
 }
+@media (max-width: 690px)
+ {
+  .team {
+    flex-direction: column;
+  }
+}

@@ -50,3 +50,8 @@
 .footer__liltext {
   font-size: 12px;
 }
+@media (max-width: 690px){
+  .footer__flex{
+    flex-direction: row;
+  }
+}
