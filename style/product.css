@@ -127,7 +127,7 @@
 .hueta {
   height: 10px;
 }
-@media (max-width: 690px)
+@media (max-width: 1200px)
  {
   .product__reproduction {
     font-size: 30px;

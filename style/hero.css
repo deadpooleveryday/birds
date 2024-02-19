@@ -24,7 +24,7 @@
   width: 540px;
   height: 621px;
 }
-@media (max-width: 690px){
+@media (max-width: 1200px){
   .hero__bird {
     width: 330px;
     height: 380px;
