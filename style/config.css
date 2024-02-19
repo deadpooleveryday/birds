@@ -41,7 +41,7 @@ a {
 li {
   list-style: none;
 }
-@media (max-width: 1200) {
+@media (max-width: 1200px) {
   .container {
     width: 80vw;
   }
