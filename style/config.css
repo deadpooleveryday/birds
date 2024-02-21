@@ -50,3 +50,12 @@ li {
     height: 60px;
   }
 }
+@media screen and (max-width: 690) and (min-width: 510) {
+  .container {
+    width: 80vw;
+  }
+  .button {
+    width: 178px;
+    height: 50px;
+  }
+}

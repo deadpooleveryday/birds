@@ -66,8 +66,20 @@
   font-size: 20px;
   border: none;
 }
-@media (max-width: 1200px){
- .promo__title {
-  font-size: 30px;
-} 
+@media (max-width: 1200px) {
+  .promo__title {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 690px) and (min-width: 510px) {
+  .promo__title {
+    font-size: 24px;
+  }
+  .promo__info {
+    font-size: 16px;
+  }
+  .promo__button {
+    font-size: 18px;
+  }
+  
 }

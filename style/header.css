@@ -36,3 +36,17 @@
   width: 80vw;
   border: 1px solid #c3d1c6;
 }
+@media (max-width: 1200px) {
+  .header__menu {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 690px) and (min-width: 510px) {
+  .header__hero {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .header__line {
+    display: block;
+  }
+}

@@ -127,13 +127,60 @@
 .hueta {
   height: 10px;
 }
-@media (max-width: 1200px)
- {
+@media (max-width: 1200px) {
   .product__reproduction {
     font-size: 30px;
   }
   .product__cards {
     grid-template-rows: repeat(3, 730px);
     grid-template-columns: repeat(2, 350px);
+  }
+  .product__track {
+    width: 730px;
+  }
+  .pruduct__hiddenpool {
+    width: 730px;
+  }
+}
+@media screen and (max-width: 690px) and (min-width: 510px) {
+  .product__reproduction {
+    font-size: 24px;
+  }
+  .product__cards {
+    grid-template-rows: repeat(3, 510px);
+    grid-template-columns: repeat(2, 240px);
+  }
+  .product__track {
+    width: 510px;
+  }
+  .pruduct__hiddenpool {
+    width: 510px;
+  }
+  .product__button_cards {
+    height: 65px;
+    font-size: 20px;
+  }
+  .product__image {
+    width: 200px;
+    height: 250px;
+  }
+  .product__author {
+    font-size: 16px;
+  }
+  .product__name {
+    font-size: 24px;
+  }
+  .product__materials {
+    font-size: 16px;
+  }
+  .product__price {
+    font-size: 20px;
+  }
+  .product__button_cards {
+    font-size: 18px;
+  }
+  .product__card {
+    width: 240px;
+    height: 514px;
   }
 }
