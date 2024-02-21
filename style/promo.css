@@ -71,7 +71,7 @@
     font-size: 30px;
   }
 }
-@media screen and (max-width: 690px) and (min-width: 510px) {
+@media screen and (max-width: 900px) and (min-width: 640px) {
   .promo__title {
     font-size: 24px;
   }

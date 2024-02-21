@@ -50,12 +50,17 @@
 .footer__liltext {
   font-size: 12px;
 }
+.footer__line{
+  display: none;
+  width: 80vw;
+  border: 1px solid #C3D1C6;
+}
 @media (max-width: 1200px) {
   .footer__flex {
     flex-direction: row;
   }
 }
-@media screen and (max-width: 690px) and (min-width: 510px) {
+@media screen and (max-width: 900px) and (min-width: 640px) {
   .footer__flex {
     flex-direction: column;
   }
@@ -87,4 +92,7 @@
   .footer__liltext {
     font-size: 12px;
   }
+  .footer__line{
+  display:block;
+}
 }

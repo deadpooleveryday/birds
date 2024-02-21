@@ -142,7 +142,7 @@
     width: 730px;
   }
 }
-@media screen and (max-width: 690px) and (min-width: 510px) {
+@media screen and (max-width: 900px) and (min-width: 640px) {
   .product__reproduction {
     font-size: 24px;
   }

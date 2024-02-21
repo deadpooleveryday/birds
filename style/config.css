@@ -50,12 +50,17 @@ li {
     height: 60px;
   }
 }
-@media screen and (max-width: 690) and (min-width: 510) {
+@media screen and (max-width: 900px) and (min-width: 640px) {
   .container {
     width: 80vw;
   }
   .button {
     width: 178px;
     height: 50px;
+  }
+}
+@media screen and (max-width: 640px){
+    .container {
+    width: 80vw;
   }
 }
