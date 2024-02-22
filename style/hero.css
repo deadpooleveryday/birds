@@ -48,3 +48,19 @@
     padding-top: 150px;
   }
 }
+@media screen and (max-width: 640px) {
+  .hero__bird {
+    display: none;
+  }
+  .hero__discription {
+    width: 290px;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  .hero__title {
+    font-size: 30px;
+  }
+  .hero__discription_gray {
+    font-size: 14px;
+  }
+}

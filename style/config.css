@@ -59,8 +59,8 @@ li {
     height: 50px;
   }
 }
-@media screen and (max-width: 640px){
-    .container {
+@media screen and (max-width: 640px) {
+  .container {
     width: 80vw;
   }
 }

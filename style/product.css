@@ -184,3 +184,44 @@
     height: 514px;
   }
 }
+@media screen and (max-width: 640px) {
+  .product__reproduction {
+    font-size: 24px;
+  }
+  .product__track {
+    width: 320px;
+    gap: 65px;
+  }
+  .pruduct__hiddenpool {
+    width: 384px;
+  }
+  .product__cards {
+    grid-template-rows: repeat(6, 514px);
+    grid-template-columns: repeat(1, 320px);
+  }
+  .product__card {
+    width: 290px;
+    height: 514px;
+  }
+  .product__image {
+    width: 250px;
+    height: 250px;
+    background-position: center;
+  }
+  .product__author {
+    font-size: 16px;
+  }
+  .product__name {
+    font-size: 24px;
+  }
+  .product__materials {
+    font-size: 16px;
+  }
+  .product__button_cards {
+    width: 250px;
+    height: 50px;
+  }
+.product {
+margin: 0 auto;
+}
+}

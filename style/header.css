@@ -50,3 +50,24 @@
     display: block;
   }
 }
+@media screen and (max-width: 640px) {
+  .header__hero {
+    width: 100%;
+    max-width: 320px;
+    background-color: #fff;
+    flex-direction: column;
+  }
+  .header__navigation {
+    background-color: #e1ede6;
+  }
+  .header__line {
+    width: 100vw;
+  }
+  .header__menu {
+    display: none;
+  }
+  .header__top {
+    margin: 0 auto;
+    flex-direction: column;
+  }
+}

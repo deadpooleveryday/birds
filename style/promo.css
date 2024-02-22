@@ -81,5 +81,24 @@
   .promo__button {
     font-size: 18px;
   }
-  
+}
+@media screen and (max-width: 640px) {
+  .promo__background_blackstar {
+    width: 320px;
+  }
+  .promo__background {
+    width: 100vw;
+  }
+  .promo__container {
+    justify-content: space-around;
+  }
+  .promo__title {
+    font-size: 24px;
+  }
+  .promo__info {
+    font-size: 16px;
+  }
+  .promo__button {
+    width: 80vw;
+  }
 }
